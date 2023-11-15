@@ -1,6 +1,6 @@
 {
   "name": "corestorejs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Corestore build with no native modules",
   "main": "./dist/index.js",
   "scripts": {
