@@ -1,6 +1,6 @@
 {
   "name": "corestorejs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Corestore build with no native modules",
   "main": "./dist/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/oniri-app/corestoreJs#readme",
   "dependencies": {},
-  "optionalDependencies": {
+  "devDependencies": {
     "@hyperswarm/secret-stream": "github:sce9sc/hyperswarm-secret-stream",
     "corestore": "github:sce9sc/corestore",
     "@babel/preset-env": "^7.23.3",
