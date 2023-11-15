@@ -20,13 +20,3 @@ jobs:
         run: npm run build --if-present
       - name: Run Tests
         run: npm test
-      - name: Set up Git
-        run: |
-          git config user.name "sOniri"
-          git config user.email "stavros.charitakis@gmail.com"
-      - name: Get tag
-        id: get_tag
-        run: |
-          git branch --show-current
-          git pull
-          echo "version=v$(npm pkg get version | tr -d '\"')" >> $GITHUB_OUTPUT

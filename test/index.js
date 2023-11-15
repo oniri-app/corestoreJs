@@ -2,11 +2,22 @@ const test = require("brittle");
 const Corestore = require("../dist/index.js");
 const RAM = require("random-access-memory");
 const util = require("util");
+const fs = require("fs");
+const defaultStorage = require("./utils/defaultStorage.js");
 
 const { pipeline } = require("streamx");
 
 test("basic", function (t) {
   t.is(typeof Corestore, "function");
+});
+
+test("test corestore with Random access File", async function (t) {
+  const path = "./testStore";
+  const store1 = new Corestore(path, { storagefn: defaultStorage });
+  await store1.ready();
+  await store1.close();
+  t.ok(fs.existsSync(path));
+  fs.rmSync(path, { recursive: true, force: true });
 });
 
 test("test replication", async function (t) {
