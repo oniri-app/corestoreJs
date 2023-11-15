@@ -1,12 +1,13 @@
 {
   "name": "corestorejs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Corestore build with no native modules",
   "main": "./dist/index.js",
   "scripts": {
     "build": "node ./build",
     "test": "node ./test/index.js"
   },
+  "files": ["dist"],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oniri-app/corestoreJs.git"
