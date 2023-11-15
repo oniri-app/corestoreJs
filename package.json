@@ -1,0 +1,39 @@
+{
+  "name": "corestorejs",
+  "version": "1.0.0",
+  "description": "Corestore build with no native modules",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "node ./build",
+    "test": "node ./test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oniri-app/corestoreJs.git"
+  },
+  "keywords": [
+    "corestore",
+    "hypercore"
+  ],
+  "author": "Stavros Charitakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oniri-app/corestoreJs/issues"
+  },
+  "homepage": "https://github.com/oniri-app/corestoreJs#readme",
+  "dependencies": {
+    "@hyperswarm/secret-stream": "github:sce9sc/hyperswarm-secret-stream",
+    "corestore": "github:sce9sc/corestore"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "babelify": "^10.0.0",
+    "brittle": "^3.3.2",
+    "browserify": "^17.0.0",
+    "random-access-file": "^4.0.4",
+    "random-access-memory": "^6.2.0",
+    "reactify": "^1.1.1",
+    "streamx": "^2.15.5"
+  }
+}
