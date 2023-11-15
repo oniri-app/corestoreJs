@@ -21,11 +21,10 @@
     "url": "https://github.com/oniri-app/corestoreJs/issues"
   },
   "homepage": "https://github.com/oniri-app/corestoreJs#readme",
-  "dependencies": {
-    "@hyperswarm/secret-stream": "github:sce9sc/hyperswarm-secret-stream",
-    "corestore": "github:sce9sc/corestore"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@hyperswarm/secret-stream": "github:sce9sc/hyperswarm-secret-stream",
+    "corestore": "github:sce9sc/corestore",
     "@babel/preset-env": "^7.23.3",
     "@babel/preset-react": "^7.23.3",
     "babelify": "^10.0.0",
