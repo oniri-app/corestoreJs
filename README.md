@@ -7,7 +7,7 @@ This can be used in termux and any other architecture that build of native modul
 ### To use it for now you can
 
 ```
-npm install @oniri-app/corestorejs
+npm install @oniri/corestorejs
 ```
 
 ### In your code :
