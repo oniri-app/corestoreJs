@@ -13,7 +13,7 @@ npm install @oniri/corestorejs
 ### In your code :
 
 ```
-const Corestore = require('corestorejs')
+const Corestore = require('@oniri/corestorejs')
 ```
 
 You can check the test folder in order to use the random-access-file as storage
